@@ -2,6 +2,8 @@
 
 <!--% Donner un nom à votre modèle ici (pour plus de facilité, utilisez le même nom que celui que vous avez donné à ce fichier .Rmd). N'OUBLIEZ PAS DE MODIFIER CE NOM A CHAQUE NOUVELLE ITERATION et utilisez uniquement des lettres a-z, A-Z, des chiffres 0-9, un trait souligné (_) ou un signe moins (-). NE PAS REALISER CORRECTEMENT CETTE CONSIGNE VOUS EXPOSE A UNE DISQUALIFICATION POUR CE MODELE ! -->
 
+<!--# Astuce : ne donnez pas un nom trop évident qui pourrait suggérer à vos concurrents quel modèle vous utilisez ! -->
+
 ```{r model_name, echo=FALSE}
 model_name <- "lm_simple"
 ```
