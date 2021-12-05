@@ -1,12 +1,12 @@
-# Challenge Modélisation - Prédire l'effet sdu Fipronil sur l'abeille domestique
+# Challenge Modélisation - Prédire l'effet du fipronil sur l'abeille domestique
 
 Vous arrivez à la fin de la section dédiée à la modélisation statistique au terme de ce quatrième module de Science des Données Biologiques 2. Vous avez maintenant un challenge à relever.
 
-L'Union Européenne vient de lever l'interdiction de l'utilisation de néonicotinoïdes comme pesticides dans l'agriculture. Sous certaines conditions, le **Fipronil** est donc maintenant à nouveau autorisé, par exemple, pour la culture de la betterave. Malheureusement, ce pesticide a aussi des effets sur les insectes, dont les pollinisateurs. Vous êtes contacté pour modéliser son effet létal sur l'abeille domestique *Apis mellifera*.
+L'Union Européenne vient de lever l'interdiction de l'utilisation de néonicotinoïdes comme pesticides dans l'agriculture. Sous certaines conditions, le **fipronil** est donc maintenant à nouveau autorisé, par exemple, pour la culture de la betterave sucrière. Malheureusement, ce pesticide a aussi des effets sur les insectes, dont les pollinisateurs. Vous êtes contacté pour modéliser son effet létal sur l'abeille domestique *Apis mellifera*.
 
-Vous recevez deux jeux de données. L'un, nommé **train.rds** contient un set complet de données relatives à la mortalité de *A. mellifera* en présence de doses croissantes de Fipronil. Vous devez utiliser ce jeu de données pour modéliser le phénomène du mieux possible.
+Vous recevez deux jeux de données issus d'expériences d'exposition d'*A. mellifera* à des doses différentes de fipronil (en µg). Le taux de mortalité (en %) est enregistré après 24h d'exposition. L'un, nommé `data/train.rds` contient un set complet de données relatives à la mortalité de *A. mellifera* en présence de doses croissantes de fipronil (`dose` et `mortality`). Vous devez utiliser ce jeu de données pour modéliser le phénomène du mieux possible.
 
-Ensuite, vous prédisez les taux de mortalité à l'aide de ce modèle à partir du second jeu de données nommé **test.rds**. Le code pour le faire est déjà dans le fichier R Markdown exemple dans le dossier `docs`. Vous devez ensuite soumettre votre réponse au challenge et tenter de monter le plus haut possible dans le classement.
+Ensuite, vous prédisez les taux de mortalité à l'aide de ce modèle à partir du second jeu de données nommé `data/test.rds` qui ne contient que la variable `dose`. Le code pour le faire est déjà dans le fichier R Markdown exemple dans le dossier `docs`. Vous devez ensuite soumettre votre réponse au challenge et tenter de monter le plus haut possible dans le classement.
 
 **Lisez bien les instructions ci-dessous et assurez-vous de les avoir bien comprises avant de commencer votre travail !**
 
@@ -15,4 +15,3 @@ Vos propositions doivent être soumises via l'interface dans le cours : soumette
 **Votre objectif est de prédire du mieux possible la mortalité de l'abeille domestique pour les données tests.**
 
 Les meilleures équipes seront nominées à la fin de la séance, et elles viendront exposer leur modèle devant la classe.
-
